@@ -14,3 +14,8 @@ pip install streamlit
 ```
 streamlit run app.py
 ```
+## ビルド時の注意
+- .envにgptのAPIkeyを下記のように入れるのを忘れないでください
+```
+export OPENAI_API_KEY='~~'
+```
