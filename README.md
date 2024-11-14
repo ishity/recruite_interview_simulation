@@ -1,3 +1,5 @@
+![download](https://github.com/user-attachments/assets/6e368484-a8b1-4965-b7c7-3cdb77fb6a44)
+
 ## アプリ起動手順
 ### 仮想環境の作成
 ```
