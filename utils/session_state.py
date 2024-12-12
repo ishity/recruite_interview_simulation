@@ -30,3 +30,6 @@ def init_session_state(utterance_type, interviewer, student, tab):
     
     if 'prompt1_student' not in st.session_state:
         st.session_state.prompt1_student = 'あなたは就活生としてこれから就活面接を行います。面接官の質問に適宜答えてください。ではまず面接官に挨拶をしてください。'
+
+    if 'isScoring' not in st.session_state:
+        st.session_state.isScoring = False

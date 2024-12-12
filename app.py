@@ -52,6 +52,10 @@ with st.sidebar:
             else:
                 st.session_state.first_input = f"あなたは次のような就活生です。{person}。" + st.session_state.prompt1_student
 
+        if st.button('面接の評価を行う'):
+            st.session_state.isScoring = True
+            
+
     st.write("構造化面接シミュレーション")
     with st.expander("設定"):
         if st.button('構造化面接を始める'):
